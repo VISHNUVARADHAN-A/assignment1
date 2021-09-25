@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+}
+
+.card {
+    height: 200px;
+    width: 18%;
+    background-color: gray;
+    display: inline-block;
+}
+
+
+/*media quries tab*/
+
+@media(max-width:768px) {
+    .card {
+        background-color: red;
+        width: 40%;
+    }
+}
+
+
+/*media quries mobile*/
+
+@media(max-width:480px) {
+    .card {
+        background-color: azure;
+        width: 90%;
+    }
+}
